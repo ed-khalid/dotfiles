@@ -124,16 +124,8 @@ GIT_PROMPT_ONLY_IN_REPO=1
 source ~/.bash_git_prompt/gitprompt.sh
 GIT_PROMPT_THEME=Single_line
 PATH=$PATH:~/.local/bin:~/.cargo/bin
-# prj=/home/ed/code 
-# i4=~/code/insight-four 
- i3=~/.config/i3
-# i3config=~/.config/i3/config 
-# alias vpn=vpn.sh  
+i3config=~/.config/i3/config 
 # export GOOGLE_APPLICATION_CREDENTIALS="/home/ed/code/orson/joff.json"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/ed/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/home/ed/Downloads/google-cloud-sdk/path.bash.inc'; fi
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/ed/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/home/ed/Downloads/google-cloud-sdk/completion.bash.inc'; fi
 source ~/.profile

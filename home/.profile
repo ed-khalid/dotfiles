@@ -27,11 +27,3 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
-prj="/home/ed/code"
-i4=$prj/insight-four
-i5=$prj/insight-five
-util=$prj/knowland-util
-api=$prj/knowland-api
-i3config=$HOME/.config/i3/config
-export vpn=vpn.sh
-export GOOGLE_APPLICATION_CREDENTIALS="$prj/code/orson/joff.json"
